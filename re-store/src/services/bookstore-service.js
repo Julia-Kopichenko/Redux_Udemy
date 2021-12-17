@@ -4,13 +4,15 @@ export default class BookstoreService {
   getBooks() {
     return [
       {
-        name: 'Ivan',
-        age: 'Petrov'
+        id: 1,
+        title: "Ivan",
+        author: "Petrov",
       },
       {
-        name: 'Ivan',
-        age: 'Petrov'
-      }
+        id: 2,
+        title: "Ivan",
+        author: "Petrov",
+      },
     ];
   }
 }
